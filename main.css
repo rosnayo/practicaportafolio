@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* BLOQUE 1 */
+.contenedor {
+    display: flex;
+    width: 960px;
+    justify-content: center;
+    height: 525px;
+    background-image: url(https://i.postimg.cc/TYd6vj5m/image-1-1.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center
+}
+.contenedor_uno{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor_uno h1{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    margin-bottom: 180px;
+    padding-left: 40px;
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 255px;
+}
+.info{
+    display: flex;
+    width: 20rem;
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: 500px;
+    margin-bottom: 80px;
+    background: rgba(114, 153, 254, 0.5);
+    border-radius: 10px;
+    text-align: center;   
+}
