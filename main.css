@@ -56,8 +56,15 @@ input{
     background:#233451 ;
     width: 167px;
     height: 56px;
+    
 }
 
+.boton:hover{
+    border-radius: 54px;
+background: #233451;
+box-shadow:  29px 29px 58px #121b29,
+             -29px -29px 58px #344d79;
+}
 .containerboton{    
     /* border: solid; */
     display: flex;
